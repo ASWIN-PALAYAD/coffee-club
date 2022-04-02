@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+}
+    /* header section */
+.head1{
+    display: flex;
+    padding-top: 10px;
+    background-color: #301C18;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+.head1 a{
+    text-decoration: none;
+    color: white;
+}
+.head1 a:hover{
+    color: red;
+}
+.list ul a{
+    text-decoration: none;
+    color: white;
+}
+.list ul a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+}
+i{
+    margin-left: 100px;
+    padding-right: 30px;
+}
+.list{
+    margin-left: 500px;
+}
+h2{
+    padding: 20px;
+}
+.list li{
+    padding: 20px;
+    font-size: 19px;
+}
+    /* main section */
+.main1{
+    height: 740px;
+    background-image: url(cofee-image/coffe1.webp);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.quotes{
+    color: white;
+    font-size: 100px;
+    margin-left: 147px;
+    padding-top: 176px;
+}
+.jackie{
+    color: white;
+    font-size: 35px;
+    color: white;
+    margin-left: 645px;
+    margin-top: 11px;
+}
+#explore-button{
+    margin-left: 372px;
+    margin-top: 80px;
+    background-color: darkred;
+    color: white;
+    height: 35px;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+#explore-button:hover{
+    background-color: rgb(11, 243, 88);
+    color: black;
+    height: 38px;
+    box-shadow: 10px 10px 10px  black;
+}
+    /* second main page */
+.main2{
+    height: 670px;
+    background-color: #7C4C28;
+}
+.main2 .history_image img{
+    width: 100%;
+    margin-left: 55px;
+    padding-top: 50px;
+    border-radius: 25px;
+}
+.history{
+    display: flex;
+    justify-content: space-around;
+}
+.main2 .history_image{
+    width: 40%;
+}
+.main2 h1{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.history_text {
+    width: 40%;
+    font-size: 20px;
+    color: white;
+    border: solid 2px gray;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.know_more{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.know_more button{
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    height: 30px; 
+    border: 2px solid #7C4C28 ;
+}
+.know_more button:hover{
+    background-color: red;
+}
+    /* third main page */
+.main3{
+    height: 670px;
+    background-color: #FFEBC9;
+}
+.process_step{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main3 h2{
+    text-align: center;
+    color: #7C4C28;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.main3 .process h4{
+    text-align: center;
+}
+.main3 .process{
+    width: 15%;
+    height: 490px;
+    text-align: justify;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.main3 .process h3{
+    color:darkred;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.main3 .process img{
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
+.main3 .process h4{
+    padding-top: 15px;
+    color: blue;
+}
+.main3 .process p{
+    padding-top: 15px;
+}
+.main3 .process button{
+    margin-left: 70px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 2px black;
+    background-color: red;
+    color: white;
+}
+.main3 .process button:hover{
+    background-color: blue;
+    box-shadow: 5px 5px 5px  black;
+}
+    /* fourth main page */
+.main4{
+    height: 670px;
+    background-color: #7C4C28;
+}
+.main4 .content{
+    display: flex;
+}
+.main4 h1{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+.main4 .coffee_video{
+    width: 100%;
+    text-align: center;
+    border: gray 2px solid;
+    border-radius: 15px;
+    margin-left: 55px;
+    margin-top: 80px;
+    padding: 20px;
+}
+.main4 .content h2{
+    padding-top: 5px;
+    color: white;
+}
+.main4 .content video{
+    width: 500px;
+    margin-top: 5px;
+}
+.main4 .content button{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: black 2px solid;
+}
+.main4 .content button:hover{
+    background-color: red;
+}
+    /* coffe type section */
+.coffee_types{
+    margin-top: 120px;
+}
+.coffee_list{
+    display: flex;
+    justify-content:center;
+}
+.coffee_item{
+    width: 20%;
+    border:  black solid 2px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #FFEBC9;
+}
+.coffee_item:hover{
+    
+    box-shadow: whitesmoke 0px 2px 4px 0px, white 0px 2px 16px 0px;}
+#item_head{
+    color: #7C4C28;
+}
+.coffee_item img{
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
+}
+.coffee_item p{
+    text-align: justify;
+    padding: 10px;
+}
+#order_button{
+    width: 110px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 60, 0);
+}
+#order_button:hover{
+    background-color: red;
+}
+    /* fifth main page */
+.main5{
+    background-color: #FFEBC9;
+    height: 400px;
+}
+.main5 h1{
+    text-align: center;
+    color: #7C4C28;
+    padding-top: 15px;
+}
+.main5 .enquiry{
+    display: flex;
+    padding-top: px;
+}
+.enquiry form{
+    width: 400px;
+    border:  gray solid 2px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 400px;
+    text-align: center;
+}
+.form_detail{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.enquiry_image img{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#submit_button{
+    background-color: red;
+    border: 1px black solid;
+    border-radius: 5px;
+}
+#submit_button a{
+    color: white;
+    text-decoration: none;
+}
+#cancel_button{
+    background-color: blue;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+#cancel_button a{
+    color: white;
+    text-decoration: none;
+}
+    /* footer section */
+footer{
+    height: 280px;
+    background-color: #7C4C28;
+}
+.footer_main{
+    display: flex;
+}
+.about{
+    width: 200px;
+    padding-top: 30px;
+    margin-left: 80px;
+}
+.about h3{
+    margin-left: 48px;
+    padding-bottom: 10px;
+}
+.about_content a{
+    text-decoration: none;
+}
+.about_content li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.about_content li:hover{
+    text-decoration: underline;
+}
+    /* footer social media section */
+.social_media{
+    padding-top: 30px;
+    margin-left: 300px;
+}
+.social_media h3{
+    padding-bottom: 15px;
+    margin-left: 60px;
+}
+.social_media_icons a{
+    padding: 10px;
+}
+.social_media_icons img:hover{
+    border: #FFEBC9  2px solid;
+}
+.developer_info{
+    text-align: center;
+}
+.footer_image img{
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 100px;
+}
